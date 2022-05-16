@@ -1,0 +1,20 @@
+body{
+    background-color: darkgreen;
+    text-align: center;
+}
+
+#enjoy{
+color: aqua;
+}
+#title{
+    color: whitesmoke;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #ffd900;
+padding: 10px;
+float: none;
+text-align: left;
+}
