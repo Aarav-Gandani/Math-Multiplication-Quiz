@@ -18,3 +18,11 @@ padding: 10px;
 float: none;
 text-align: left;
 }
+#player1_name{
+    text-align: left;
+    color: aliceblue;
+}
+#player2_name{
+    text-align: left;
+    color: aliceblue;
+}

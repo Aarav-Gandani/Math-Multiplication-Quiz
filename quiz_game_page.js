@@ -1,3 +1,13 @@
+function load(){
+    player1_name=localStorage.getItem("player1_name " , player1_name);
+    player2_name=localStorage.getItem("player2_name " , player2_name);
+    score1=0;
+    score2=0;
+    row1=player1_name+ " : "+score1;
+    row2=player2_name+ " : "+score2;
+    document.getElementById("player1_name").innerHTML=row1;
+    document.getElementById("player2_name").innerHTML=row2;
+}
 function send(){
     number1= document.getElementById("Number1").value;
     number2=document.getElementById("Number2").value;
